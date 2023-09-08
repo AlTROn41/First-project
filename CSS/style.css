@@ -11,7 +11,7 @@ header{
 }
 
 main{
-    width: 100%;
+    width: 320px;
     height:2935px ;
     border: 1px solid rgb(61, 195, 79); 
 }
@@ -20,4 +20,11 @@ footer{
     width: 100%;
     height: 486px;
     border: 1px solid rgb(47, 21, 153); 
+}
+.box{
+    background: url(/image/photo\ hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 169px;
+    width: 300px;
 }
