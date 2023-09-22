@@ -95,7 +95,7 @@ footer{
 
 }
 
-a{
+.footer-menu_list a{
     color: #000;
     font-family: Raleway;
     font-size: 12px;
@@ -103,4 +103,49 @@ a{
     font-weight: 700;
     line-height: 14px; /* 116.667% */
     text-decoration: none;
+}
+
+footer p{
+    color: #000;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 19px
+}
+
+footer a{
+    color: #000;
+    font-family: Raleway;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 11px; 
+    text-decoration: none;
+}
+
+.Fotter_down{
+
+color: #000;
+font-family: Raleway;
+font-size: 9px;
+font-style: normal;
+font-weight: 700;
+line-height: 19px; /* 211.111% */
+}
+
+.General_Ninj{
+    color: #000;
+font-family: Raleway;
+font-size: 22px;
+font-style: normal;
+font-weight: 900;
+line-height: 26px; /* 118.182% */
+text-decoration: none;
+}
+
+.link_logo{
+    background: url(/image/mail.svg),
+    rgb(180, 59, 59) 0px 0px / 100% 100% no-repeat;
+
 }
