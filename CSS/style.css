@@ -107,11 +107,11 @@ footer{
 
 footer p{
     color: #000;
-font-family: Raleway;
-font-size: 16px;
-font-style: normal;
-font-weight: 900;
-line-height: 19px
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 19px
 }
 
 footer a{
@@ -146,6 +146,46 @@ text-decoration: none;
 
 .link_logo{
     background: url(/image/mail.svg),
-    rgb(180, 59, 59) 0px 0px / 100% 100% no-repeat;
+    rgb(255, 255, 255) 0px 0px / 100% 100% no-repeat;
 
+}
+
+.get_started{
+    background-color: #4BA87D;
+    width: 320px;
+    height: 290px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.get_started h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; 
+}
+
+.get_started a{
+    color: #4BA87D;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 15px; /* 115.385% */
+    letter-spacing: 0.65px;
+    text-decoration: none;
+}
+
+.get_started button{
+    width: 131px;
+    height: 42px;
+    flex-shrink: 0;
+    text-align: center;
+    margin: 0 auto;
 }
