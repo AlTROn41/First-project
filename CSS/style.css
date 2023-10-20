@@ -54,7 +54,7 @@ header{
 .logo{
     width: 55px;
     margin-top: 9px;
-    margin-left: 6px;
+    margin-right: 10px;
 }
 
 .logo a{
@@ -66,6 +66,7 @@ header{
 
 .logo_text{
     margin-top: 14.75px;
+    margin-left: 3px;
 }
 
 .logo_sign {
@@ -132,16 +133,18 @@ margin-top: 19px;
 }
 
 
+
 .first p{
     margin-left: 9px;
     color: #000;
     font-family: Raleway;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 500;
-    line-height: 16px; /* 114.286% */
+    line-height: 16px; /* 133.333% */
     margin-bottom: 16px;
-
+    margin-top: 15px;
+    margin-right: 2px;
 }
 
 
@@ -187,6 +190,7 @@ margin-top: 19px;
 
 
 .video{
+    margin-top: 30px;
     display: block;
     background: url(/image/VIDEO\ \(image\).png);
     background-repeat: no-repeat;
@@ -195,14 +199,19 @@ margin-top: 19px;
     height: 202px;
     width: auto;
     text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 280px;
 }
 
 .video h2{
+    padding-top: 60px;
     color: #FFF;
     font-family: Playfair Display;
     font-size: 22px;
     font-style: normal;
     font-weight: 900;
+    padding-bottom: 20px;
     line-height: 29px; /* 131.818% */
 }
 
@@ -217,6 +226,7 @@ margin-top: 19px;
     text-decoration: none;
     padding: 7px 13px;
     background: #FFF;
+    
 }
 
 
@@ -229,8 +239,12 @@ margin-top: 19px;
     padding: auto;
     height: 182px;
     width: 210px;   
+    margin-left: 103px;
 }
 
+.withP {
+background: url(/image/Slanted\ Green\ BG.svg);
+}
 
 .start{
     color: #000;
@@ -239,6 +253,17 @@ margin-top: 19px;
     font-style: normal;
     font-weight: 500;
     line-height: 16px; /* 133.333% */
+    background-color: #fff;
+    width: 209px;
+    height: 128px;
+    margin-left: 103px;
+    margin-bottom: 18px;
+
+}
+
+.start p{
+    padding-top: 16px;
+    padding-left: 20px;
 }
 
 .start a{
@@ -249,6 +274,7 @@ margin-top: 19px;
     font-weight: 800;
     line-height: 14px; /* 116.667% */
     text-decoration: none;
+    padding-left: 20px;
 }
 
 .text_withoutP {
@@ -256,12 +282,14 @@ margin-top: 19px;
 }
 
 .text_withoutP h2{
+    padding-top: 17px;
     color: #000;
     font-family: Playfair Display;
     font-size: 28px;
     font-style: normal;
     font-weight: 900;
     line-height: 31px; /* 110.714% */
+    padding-bottom: 17px;
 }
 .text_withoutP p{
     color: #000;
@@ -271,10 +299,11 @@ margin-top: 19px;
     font-weight: 500;
     line-height: 16px; /* 133.333% */
     margin-right: 65px;
+    margin-bottom: 47px;
 }
 
 .forth{
-    margin-left: 35px;
+    margin-left: 50px;
     width:223px;
     height: 843px;
     color: #FFF;
@@ -294,12 +323,21 @@ margin-top: 19px;
     line-height: 14px; /* 116.667% */
 }
 
+.forth div+div{
+    margin-top: 21px;
+}
+
+.forth h2{
+    padding-top: 100px;
+}
 
 .Frankie{
     background: url(/image/Frankie.png) ;
     width: auto;
     height: 157px;
     text-align: left;
+    background-repeat: no-repeat;
+    padding-left: 17px;
 }
 
 .Elayne{
@@ -307,6 +345,7 @@ margin-top: 19px;
     width: auto;
     height: 157px;
     background-repeat: no-repeat;
+    padding-left: 17px;
 }
 
 .Camile{
@@ -314,11 +353,13 @@ margin-top: 19px;
     width: auto;
     height: 157px;
     background-repeat: no-repeat;
+    padding-left: 17px;
 }
 
 .Learn h2{
     color: #000;
     text-align: center;
+    padding-top: 38px;
     font-family: Playfair Display;
     font-size: 26px;
     font-style: normal;
@@ -332,24 +373,49 @@ margin-top: 19px;
     background: #FFF;
     width: auto;
     height: 42px;
-    display: block;
     text-align: center;
-    color: #000;
-    display: flex;
-    
+    color: #000;    
+}
+
+
+footer img{
+    display: inline;
+}
+
+.action{
+    margin-top: 15px;
 }
 
 .thanks{
     color: #4BA87D;
-font-family: Raleway;
-font-size: 12px;
-font-style: normal;
-font-weight: 500;
-line-height: 14px; /* 116.667% */
-letter-spacing: 0.6px;
-text-align: center;
-margin-top: 10px;
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px; /* 116.667% */
+    letter-spacing: 0.6px;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 7px;
 }
+
+.action2{
+    width: 144px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+    background-color: #4BA87D;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 15px; /* 115.385% */
+    letter-spacing: 0.65px;
+}
+
+
 
 .forth a{
     color: #FFF;
@@ -366,9 +432,11 @@ margin-top: 10px;
 }
 
 .fifth{
+    margin-top: 54px;
     width: 281px;
     height: 242px;
     flex-shrink: 0;
+    margin-left: 20fpx;
 }
 
 .fifth h2{
@@ -379,19 +447,60 @@ margin-top: 10px;
     font-style: normal;
     font-weight: 900;
     line-height: 36px; /* 138.462% */
+    margin-left: 40px;
 }
 
 
-.dragon{
-    margin-top: 30px;
-    margin-left: 45px;
+.footer-menu_list li+li{
+margin-bottom: 7px;
+
 }
 
-.game{
-    margin-top: 30px;
-    margin-left: 187px;
+footer{
+    padding-top: 50px;
 }
 
+footer p, img {
+    margin-left: 17px;
+}
+
+.first_chield{
+    margin-top: 11px;
+    margin-bottom: 7px; 
+}
+
+.Medium{
+    margin-top: 11px;
+    margin-bottom: 7px; 
+}
+
+.first_colum{
+    float: left;
+    margin-left: 17px; 
+    margin-bottom: 17px;
+}
+
+hr{
+    margin-bottom: 23px;
+}
+.second_colum{
+    float: right; width: 49%
+}
+
+.footer_p{
+    width: 186px;
+
+}
+
+.navigation {
+    margin-left: 17px;
+    margin-top: 14px;
+}
+
+.navigation a{
+    display: block;
+    margin-bottom: 9px;
+}
 
 .footer-menu_list a{
     display: block;
@@ -502,3 +611,4 @@ footer{
     height: 486px;
     border: 1px solid rgb(47, 21, 153); 
 }
+
