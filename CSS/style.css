@@ -324,7 +324,7 @@ background-position: center;
 }
 
 .forth{
-    margin-left: 50px;
+    margin: 0 auto;
     width:223px;
     height: 843px;
     color: #FFF;
@@ -472,7 +472,6 @@ footer img{
 
 .fifth{
     margin-top: 54px;
-    width: 281px;
     height: 242px;
     flex-shrink: 0;
     display: flex;
