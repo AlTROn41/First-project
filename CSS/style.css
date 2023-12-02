@@ -198,19 +198,19 @@ align-items: center;
 
 
 .video{
-    margin-top: 30px;
+
     background: url(/image/VIDEO\ \(image\).png);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Playfair Display';
-    height: 202px;
-    width: auto;
+    height: 171px;
+    width: 300px;
     text-align: center;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin: 0 auto;
     display: flex;
-    margin-bottom: 280px;
     flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 30px;
 
 }
 
@@ -241,28 +241,31 @@ align-items: center;
 }
 
 
-
-.img_start{
-
-    background-size: cover;
-    font-family: 'Playfair Display';
-    height: 182px;
-    width: 210px;   
-    background-position: center;
-    margin-left: 97px;
-
-}
-
 .withP {
 display: flex;
 flex-direction: column;
-align-items:center;
 width: auto ;
 background: url(/image/Slanted\ Green\ BG.svg);
 background-repeat: no-repeat;
 background-position: center; 
 
 }
+
+.start_1 {
+    color: #000;
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+    background-color: #fff;
+    width: 210px;
+    height: 310px;
+    margin-bottom: 18px;
+    margin-left: 10px;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
 
 .start{
     color: #000;
@@ -272,19 +275,26 @@ background-position: center;
     font-weight: 500;
     line-height: 16px; /* 133.333% */
     background-color: #fff;
-    width: 209px;
-    height: 128px;
-    margin-bottom: 18px;
+    width: 210px;
+    height: 310px;
     margin-left: 97px;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
 
 }
 
-.start p{
+.start_img{
+    height: 182px;
+    width: 210px;   
+    top: 10px;
+}
+
+.start_p{
     padding-top: 16px;
-    padding-left: 20px;
+    margin: 0 auto;
+    width: 170px;
 }
 
-.start a{
+.start_a{
     color: #4BA87D;
     font-family: Raleway;
     font-size: 12px;
@@ -390,6 +400,7 @@ background-position: center;
     font-style: normal;
     font-weight: 900;
     line-height: 36px; /* 138.462% */
+    margin-bottom: 10px;
 }
 
 .logo_footer {
@@ -397,32 +408,19 @@ background-position: center;
     flex-direction: row;
     align-items: center;
     width: 280px;
-    margin-left: 13px;
 }
 
-
-.forth form{
-
-    background: #FFF;
-    width: auto;
-    height: 42px;
-    text-align: center;
-    color: #000;    
-}
 
 #form_4_input{
-    border: 1px solid gray;
-    padding: 5px 10px;
     border-radius: 5px;
+    border: 1px solid #9F9F9F;
+    background: #FFF;;
+    width: 210px;
+    height: 42px;
+    padding-left: 10px;
 }
 
-footer img{
-    display: inline;
-}
 
-.action{
-    margin-top: 15px;
-}
 
 .thanks{
     color: #4BA87D;
@@ -433,7 +431,7 @@ footer img{
     line-height: 14px; /* 116.667% */
     letter-spacing: 0.6px;
     text-align: center;
-    margin-top: 13px;
+    margin-top: 10px;
     margin-bottom: 7px;
     border: none;
 }
@@ -521,46 +519,47 @@ margin-bottom: 7px;
 
 }
 
+.conteiner {
+    margin-left: 10px;
+}
 
 footer{
     padding-top: 50px;
+    margin-bottom: 50px;
 }
 
 .first_chield{
     margin-top: 11px;
-    margin-bottom: 7px; 
+
 }
 
 .Medium{
     margin-top: 11px;
-    margin-bottom: 7px; 
+
 }
 
 .first_colum{
     float: left;
-    margin-left: 17px; 
     margin-bottom: 17px;
 }
 
-hr{
-    margin-bottom: 23px;
-}
 .second_colum{
     float: right; width: 49%
 }
 
 .footer_p{
     width: 186px;
-    margin-left: 17px;
+    margin-top: 23px;
 }
 
 .navigation {
-    margin-left: 17px;
     margin-top: 14px;
+    display: flex;
+    flex-direction: column;
 }
 
-.navigation a{
-    margin-bottom: 9px;
+.Terms{
+    margin-bottom: 7px;
 }
 
 .footer-menu_list a{
@@ -573,13 +572,25 @@ hr{
     text-decoration: none;
 }
 
+footer h3{
+    color: #000;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 19px;
+    position: absolute;
+    left: 65px;
+}
+
 footer p{
     color: #000;
     font-family: Raleway;
     font-size: 16px;
     font-style: normal;
     font-weight: 900;
-    line-height: 19px
+    line-height: 19px;
+
 }
 
 footer a{
@@ -592,10 +603,7 @@ footer a{
     text-decoration: none;
 }
 
-
-
 .Fotter_down{
-
 color: #000;
 font-family: Raleway;
 font-size: 9px;
@@ -666,9 +674,4 @@ text-decoration: none;
     margin: 0 auto;
 }
 
-footer{
-    width: auto;
-    height: 486px;
-    border: 1px solid rgb(47, 21, 153); 
-}
 
