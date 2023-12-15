@@ -216,6 +216,8 @@ text-decoration: none;
 
 .conteiner {
     margin-left: 10px;
+    margin: 0 auto;
+    width: 300px;
 }
 
 .logo_footer {
@@ -226,10 +228,12 @@ text-decoration: none;
 }
 
 .footer-menu_list {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-height: 214px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 230px;
+    justify-content: flex-start;
+    align-content: space-between;
 }
 
 
@@ -265,8 +269,6 @@ footer h3{
     font-style: normal;
     font-weight: 900;
     line-height: 19px;
-    position: absolute;
-    left: 65px;
 }
 
 footer p{
