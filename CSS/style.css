@@ -423,6 +423,7 @@ main{
 .slah_white {
     position: absolute;
     top: 80%;
+    z-index: -;
     right: 8%;
 }
 
