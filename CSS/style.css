@@ -741,6 +741,7 @@ form{
 }
 
 #form_4_input{
+    color: #000;
     display: flex;
     border-radius: 5px;
     border: 1px solid #9F9F9F;
