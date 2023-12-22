@@ -6,6 +6,11 @@ html, body {
     overflow-x: hidden;
 }
 
+::selection {
+    background: #4BA87D; /* Цвет фона */
+    color: #ffffff; /* Цвет текста */
+}
+
 /* playfair-display-900 - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -98,6 +103,17 @@ main{
     align-items: center;
 }
 
+.skip-link {
+    position: absolute;
+    top: 6%;
+    z-index: 2;
+    color: #4BA87D;
+    padding: 10px 10px;
+}
+
+
+
+
 .logo img{
     position: relative;
     top: 2px;
@@ -107,6 +123,14 @@ main{
 .logo a {
     position: relative;
     right: 15px;
+
+}
+
+.logo:hover{
+    background-color: #2980b9;
+    color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1) rotate(5deg);
 }
 
 
@@ -129,6 +153,20 @@ main{
     
     
 }
+
+.nav-item:hover{
+    background-color: #2980b9;
+    color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1) rotate(5deg);
+}
+
+.nav-link:active{
+    color: #ffffff; /* Изменяем цвет при активации ссылки */
+}
+
+
+
 .nav-item {
     text-align: center;
     text-transform:uppercase;
@@ -167,6 +205,21 @@ main{
     line-height: 13px; /* 118.182% */
     letter-spacing: 0.825px;
     flex-wrap: nowrap;
+}
+
+.user_sign-button:hover{
+    background-color: #2980b9;
+    color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1) rotate(5deg);
+}
+
+.user_sign-button:active{
+    background-color: #4BA87D;
+}
+
+.user_sign-button:focus{
+    outline: 3px solid rgb(0, 0, 0);
 }
 
 .user_sign-button a{
@@ -237,6 +290,18 @@ main{
     color: #FFF;
 }
 
+.tru_now_link:hover{
+    background-color: #2980b9;
+    color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1) rotate(5deg);
+}
+
+
+.tru_now_link:active{
+    color: #000000; /* Изменяем цвет при активации ссылки */
+}
+
 .get_demo_link {
     display: flex;
     justify-content: center;
@@ -246,6 +311,17 @@ main{
     border: 3px solid #4BA87D;
     background: #fff;
     color: #4BA87D;
+}
+
+.get_demo_link:hover{
+    background-color: #2980b9;
+    color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1) rotate(5deg);
+}
+
+.get_demo_link:active{
+    color: #000000; /* Изменяем цвет при активации ссылки */
 }
 
 /* hero img */
@@ -466,6 +542,13 @@ main{
     z-index: 1;
 }
 
+.video_text a:hover{
+    background-color: #2980b9;
+    color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1) rotate(5deg);
+}
+
 .video a{
     width: 200px;
     height: 65px;
@@ -636,6 +719,13 @@ main{
     line-height: 19px;
 }
 
+.start_a:hover{
+    background-color: #2980b9;
+    color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1) rotate(5deg);
+}
+
 .text_withoutP h2{
     padding-top: 17px;
     font-family: Playfair Display;
@@ -782,8 +872,6 @@ form{
 }
 
 .action2{
-
-    background-color: #4BA87D;
     text-align: center;
     font-size: 21px;
     font-style: normal;
@@ -799,9 +887,24 @@ form{
     font-weight: 900;
     line-height: 25px; /* 119.048% */
     letter-spacing: 1.05px;
-    background-color: #4BA87D;
     border: 0;
     padding: 20px 30px;
+    background-color: #4BA87D;
+}
+
+.action2 input:hover{
+    background-color: #2980b9;
+    color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1) rotate(5deg);
+}
+
+.action2 input:active{
+color: #000;
+}
+
+.action2 :focus{
+    outline: 3px solid rgb(0, 0, 0);
 }
 
 /* Fifth */
@@ -817,6 +920,11 @@ form{
     flex-direction: column;
     text-align: center;
     margin-bottom: 35px;
+}
+
+.content{
+    display: flex;
+    
 }
 
 .logo_fifth{
@@ -892,9 +1000,18 @@ justify-items: center;
     text-decoration: none;   
     background: #FFF;
     padding: 16px 31px;
-
 }
 
+.get_started_contant a:hover{
+    background-color: #2980b9;
+    color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1) rotate(5deg);
+}
+
+.get_started_contant a:active{
+    color: #000;
+}
 
 /* Footer */
 
@@ -954,12 +1071,32 @@ footer{
     height: 180px;
 }
 
+
+
 .footer-menu_list a{
     color: #000;
     font-size: 19px;
     font-style: normal;
     font-weight: 700;
     line-height: 22px; /* 115.789% */
+}
+
+
+/* Изменяем стили для четных элементов списка */
+.footer-menu_list li:nth-child(even) {
+    background-color: #f4fffa;
+}
+
+
+.footer-menu_list :hover{
+    background-color: #2980b9;
+    color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1) rotate(5deg);
+}
+
+.footer-menu_list :active{
+    color: #000000;
 }
 
 .case_2 {
@@ -990,4 +1127,65 @@ footer{
     line-height: 18px;
 }
 
+.navigation a:hover{
+    background-color: #2980b9;
+    color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1) rotate(5deg);
+}
+
+.navigation a:active{
+    color: #000000;
+}
+
+.card {
+    position: relative;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: #FF3D00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: spin 3s ease-out 0s forwards;
+}
+
+
+.opaloader {
+    height: 40px;
+    visibility: hidden;
+    animation: fadeIn 0.5s ease-out 3s forwards;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@keyframes spin {
+    from {
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+
+    to {
+        visibility: hidden;
+        opacity: 1;
+        transform: rotate(1440deg);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        visibility: visible;
+        opacity: 1;
+    }
+}
 
