@@ -94,6 +94,7 @@ main{
 }
 
 .logo{
+    position: relative;
     color: #000;
     font-size: 35px;
     font-style: normal;
@@ -105,7 +106,7 @@ main{
 
 .skip-link {
     position: absolute;
-    top: 6%;
+    top: 8%;
     z-index: 2;
     color: #4BA87D;
     padding: 10px 10px;
